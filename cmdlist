@@ -1,0 +1,18 @@
+git init
+git add <file>
+git commit -m "message"
+git status
+git diff
+git log
+git log --pretty=oneline
+git reset --hard HEAD^
+git reflog
+git reset --hard commit_id
+git diff HEAD -- readme.txt
+git checkout -- file
+git reset HEAD <file>
+git rm (then git commit)
+git remote add origin <gitaddress>
+git push -u(1st time) origin master
+git push origin master
+git clone <gitaddress>
